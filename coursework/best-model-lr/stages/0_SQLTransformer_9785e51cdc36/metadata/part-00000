@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.SQLTransformer","timestamp":1734812156263,"sparkVersion":"3.5.3","uid":"SQLTransformer_9785e51cdc36","paramMap":{"statement":"SELECT *, image_to_vector(process_image(Path, `Roi.X1`, `Roi.Y1`, `Roi.X2`, `Roi.Y2`)) features FROM __THIS__"},"defaultParamMap":{}}
